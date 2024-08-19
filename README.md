@@ -62,10 +62,4 @@ This project involves creating a fully functional and visually appealing dashboa
   </li>
 </ul>
 
-  <li><strong>Modular Code Structure:</strong>
-    <ul>
-      <li>The project is organized with a clear separation of concerns: application logic (e.g., creating and managing todos) is separated from DOM manipulation and rendering.</li>
-    </ul>
-  </li>
-</ul>
 
