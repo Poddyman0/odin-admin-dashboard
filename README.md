@@ -1,4 +1,4 @@
-Project Title: Todo List with Projects and Persistence
+<strong>Project Title: Todo List with Projects and Persistence</strong>
 
 Project Overview:
 This project is a dynamic todo list application that allows users to create and manage tasks across multiple projects. Users can add tasks with properties like title, description, due date, and priority, and can organize these tasks into different projects. The app provides a default project for basic task management but also allows users to create custom projects. It features the ability to view, edit, and delete todos. The app ensures data persistence using the Web Storage API (localStorage), so tasks and projects remain even after the page is refreshed.
