@@ -1,59 +1,67 @@
-<strong>Project Title:</strong> Todo List with Projects and Persistence
+<strong>Project Title:</strong> Responsive Dashboard with CSS Grid
 
 <strong>Project Overview:</strong>
-This project is a dynamic todo list application that allows users to create and manage tasks across multiple projects. Users can add tasks with properties like title, description, due date, and priority, and can organize these tasks into different projects. The app provides a default project for basic task management but also allows users to create custom projects. It features the ability to view, edit, and delete todos. The app ensures data persistence using the Web Storage API (localStorage), so tasks and projects remain even after the page is refreshed.
+This project involves creating a fully functional and visually appealing dashboard layout using primarily CSS Grid for the layout. The dashboard includes a sidebar, a header, and a main content area that houses different sections like projects, announcements, and trending items. The goal is to practice advanced CSS Grid techniques while ensuring a clean and organized UI. The design was customized with unique colors, icons, and typography, leveraging assets from resources like Material Design Icons and Google Fonts.
 
 <strong>Technologies and Skills Used:</strong>
 
 <ul>
-  <li><strong>JavaScript (ES6+):</strong> Used for creating and managing the application logic, as well as generating todos and projects dynamically.</li>
-  <li><strong>HTML5/CSS3:</strong> For structuring and styling the user interface.</li>
-  <li><strong>Webpack:</strong> Used for bundling the code and managing dependencies.</li>
-  <li><strong>date-fns:</strong> A date utility library used for formatting and manipulating due dates.</li>
-  <li><strong>LocalStorage (Web Storage API):</strong> To save and retrieve project and todo data, enabling persistence across sessions.</li>
-  <li><strong>Modular Programming:</strong> Implemented a clear separation of concerns by organizing code into modules, separating application logic from DOM manipulation.</li>
-  <li><strong>JSON Handling:</strong> Used to store and retrieve data in localStorage while ensuring proper serialization and deserialization of objects.</li>
+  <li><strong>HTML5:</strong> Used to structure the dashboard layout with elements such as sidebar, header, and main content sections.</li>
+  <li><strong>CSS3 (Grid Layout):</strong> The primary tool used to manage the overall layout, including nesting grids for different sections.</li>
+  <li><strong>CSS Flexbox:</strong> Utilized in specific sections where aligning items horizontally or vertically was more efficient.</li>
+  <li><strong>Responsive Design Techniques:</strong> Though responsiveness was optional, breakpoints were added to handle screen resizing for the project cards.</li>
+  <li><strong>Google Fonts (Roboto):</strong> Integrated custom fonts using Google Fonts to enhance the design.</li>
+  <li><strong>Material Design Icons (SVGs):</strong> Used scalable vector icons for navigation, buttons, and other UI elements.</li>
+  <li><strong>Tailwind Color Palettes:</strong> Referenced for selecting complementary color schemes for the dashboard.</li>
+  <li><strong>Version Control (Git/GitHub):</strong> Managed project progress and version history using Git. The final project was deployed using GitHub Pages.</li>
 </ul>
 
 <strong>Features:</strong>
 
 <ul>
-  <li><strong>Project and Todo Management:</strong>
+  <li><strong>Grid-Based Layout:</strong>
     <ul>
-      <li>Users can create multiple projects to categorize their tasks.</li>
-      <li>A default project is provided to hold todos before custom projects are created.</li>
-      <li>Users can switch between projects and view all associated tasks.</li>
+      <li>A fully responsive dashboard layout utilizing CSS Grid as the core technique for structuring the sidebar, header, and main content areas.</li>
+      <li>Nested grids within major sections (e.g., sidebar, header) for precise placement of elements such as navigation links, branding, search bar, and user info.</li>
     </ul>
   </li>
-  <li><strong>Todo Item Properties:</strong>
+  <li><strong>Sidebar Navigation:</strong>
     <ul>
-      <li>Each todo item includes a title, description, due date, priority level, and optional notes.</li>
-      <li>Priority levels are visually indicated through colors, making it easy to differentiate between tasks.</li>
+      <li>A sticky sidebar with a grid-based structure that organizes navigation links and branding at the top.</li>
+      <li>Icons and labels for easy navigation, styled with consistent padding and alignment.</li>
     </ul>
   </li>
-  <li><strong>Task Creation and Editing:</strong>
+  <li><strong>Header Section:</strong>
     <ul>
-      <li>Users can create new todos by specifying properties like title, due date, and priority.</li>
-      <li>Todos can be edited to update their details or mark them as completed.</li>
+      <li>A responsive header featuring a grid layout that arranges the search bar, user profile information, and action buttons.</li>
+      <li>Included a search input field and user avatar for personalization.</li>
     </ul>
   </li>
-  <li><strong>Dynamic User Interface:</strong>
+  <li><strong>Main Content Area:</strong>
     <ul>
-      <li>Todos are displayed with their title and due date in a concise format. Higher-priority tasks are highlighted.</li>
-      <li>The interface allows users to expand a task to view or edit additional details, such as the full description.</li>
+      <li>The main content is divided into grids to manage the placement of project cards, announcements, and trending items.</li>
+      <li>Flexible content blocks that can be adjusted based on design preferences or future extensions.</li>
     </ul>
   </li>
-  <li><strong>Task Deletion:</strong>
+  <li><strong>Custom Styling and Theming:</strong>
     <ul>
-      <li>Users can easily delete a task, removing it from the project.</li>
+      <li>Applied a unique color scheme with background colors and borders for better visualization during grid setup.</li>
+      <li>Integrated external fonts and icons to enhance the visual appeal and accessibility of the dashboard.</li>
     </ul>
   </li>
-  <li><strong>Data Persistence:</strong>
+  <li><strong>Responsive Adjustments:</strong>
     <ul>
-      <li>The app automatically saves project and todo data to localStorage whenever a change is made (e.g., adding, updating, or deleting a todo).</li>
-      <li>On page load, the app checks localStorage and restores any saved projects and tasks, ensuring data is preserved across sessions.</li>
+      <li>Implemented basic responsiveness, particularly for the project cards section, allowing it to expand or shrink depending on the browser window size.</li>
+      <li>The layout adapts to different screen sizes, ensuring the dashboard remains user-friendly across devices.</li>
     </ul>
   </li>
+  <li><strong>Deployment and Version Control:</strong>
+    <ul>
+      <li>The project was version-controlled through Git and hosted on GitHub Pages, allowing it to be accessed live online.</li>
+    </ul>
+  </li>
+</ul>
+
   <li><strong>Modular Code Structure:</strong>
     <ul>
       <li>The project is organized with a clear separation of concerns: application logic (e.g., creating and managing todos) is separated from DOM manipulation and rendering.</li>
